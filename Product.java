@@ -8,19 +8,19 @@ package com.shopping;
 	    private String name;
 	    private String description;
 	    private float price;
-	    private int categoryId;
-	    private String manufacturename;
+	  
+
 	   
 
 	    public Product() {
 	    }
 
-	    public Product(String name, String description, float price, int categoryId, String manufacturename) {
+	    public Product(String name, String description, float price) {
 	        this.name = name;
 	        this.description = description;
 	        this.price = price;
-	        this.categoryId = categoryId;
-	        this.manufacturename = manufacturename;
+	  
+	     
 	    }
 
 	    public Product(int id) {
@@ -59,29 +59,7 @@ package com.shopping;
 	        this.price = price;
 	    }
 
-	    public int getCategoryId() {
-	        return categoryId;
-	    }
-
-	    public void setCategoryId(int categoryId) {
-	        this.categoryId = categoryId;
-	    }
-
-	    public String getManufacturename() {
-	        return manufacturename;
-	    }
-
-	    public void setManufacturename(String manufacturename) {
-	        this.manufacturename = manufacturename;
-	    }
-
-	    public String getImage() {
-	        return image;
-	    }
-
-	    public void setImage(String image) {
-	        this.image = image;
-	    }
+	 
 	    
 	    
 	    
