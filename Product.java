@@ -10,7 +10,7 @@ package com.shopping;
 	    private float price;
 	    private int categoryId;
 	    private String manufacturename;
-	    private String image;
+	   
 
 	    public Product() {
 	    }
